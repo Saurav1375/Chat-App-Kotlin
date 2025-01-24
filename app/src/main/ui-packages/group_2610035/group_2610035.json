@@ -1,0 +1,794 @@
+{
+  "name": "group_2610035",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "ISywyL4Vh6xScxPG9b5mL9",
+    "node": "197:74344",
+    "version": "6766413353",
+    "component-id": "777f3f9145ed37168a0ef636e1e7496204f2c229"
+  },
+  "default": "Group 2610035",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "On-Boarding-1"
+      },
+      {
+        "type": "vector",
+        "id": "Ellipse 179"
+      },
+      {
+        "type": "vector",
+        "id": "Ellipse 181"
+      },
+      {
+        "type": "vector",
+        "id": "Ellipse 180"
+      },
+      {
+        "type": "group",
+        "id": "Status bar"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 172"
+      },
+      {
+        "type": "group",
+        "id": "next"
+      },
+      {
+        "type": "text",
+        "id": "Next"
+      },
+      {
+        "type": "text",
+        "id": "Welcome to GetWel+"
+      },
+      {
+        "type": "vector",
+        "id": "image"
+      },
+      {
+        "type": "group",
+        "id": "Status"
+      },
+      {
+        "type": "group",
+        "id": "Status_synth"
+      },
+      {
+        "type": "group",
+        "id": "Camera"
+      },
+      {
+        "type": "group",
+        "id": "Time & Date"
+      },
+      {
+        "type": "group",
+        "id": "Status Icons"
+      },
+      {
+        "type": "text",
+        "id": "9:30"
+      },
+      {
+        "type": "text",
+        "id": "Tue, Jul 19"
+      },
+      {
+        "type": "group",
+        "id": "Wi-Fi Network"
+      },
+      {
+        "type": "group",
+        "id": "Battery"
+      },
+      {
+        "type": "group",
+        "id": "Wifi"
+      },
+      {
+        "type": "group",
+        "id": "Signal"
+      },
+      {
+        "type": "vector",
+        "id": "Vector"
+      },
+      {
+        "type": "vector",
+        "id": "Vector1"
+      },
+      {
+        "type": "group",
+        "id": "Battery1"
+      },
+      {
+        "type": "text",
+        "id": "Until 10:00 AM"
+      },
+      {
+        "type": "vector",
+        "id": "Base"
+      },
+      {
+        "type": "vector",
+        "id": "Camera1"
+      },
+      {
+        "type": "vector",
+        "id": "Ellipse 176"
+      },
+      {
+        "type": "vector",
+        "id": "Ellipse 177"
+      }
+    ],
+    "modes": {
+      "Group 2610035": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "On-Boarding-1"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "On-Boarding-1",
+            "is-structured": false,
+            "children": [
+              "Ellipse 179",
+              "Ellipse 181",
+              "Ellipse 180",
+              "Status bar",
+              "Rectangle 172",
+              "next",
+              "Next",
+              "Welcome to GetWel+",
+              "image"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 262.5,
+              "saturation": 0.5818181818181818,
+              "value": 0.21568627450980393
+            }
+          },
+          {
+            "id": "Ellipse 179",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 114.11485072550931
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 114.11503383097806
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 554.5324096679688
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 554.5324096679688
+              }
+            },
+            "vector-content": "ellipse_179.svg"
+          },
+          {
+            "id": "Ellipse 181",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 77.25714199737195
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 362.5114869375575
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 375.42315673828125
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 375.42315673828125
+              }
+            },
+            "vector-content": "ellipse_181.svg"
+          },
+          {
+            "id": "Ellipse 180",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 94.42972962214117
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 154.16861956891444
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 669.408203125
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 538.6298217773438
+              }
+            },
+            "vector-content": "ellipse_180.svg"
+          },
+          {
+            "id": "Status bar",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 5.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 381.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 40.0
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "cross-axis-align": "end",
+            "children": [
+              "Status"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Rectangle 172",
+            "border-radius": 70.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 370.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 374.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 527.0
+              }
+            },
+            "vector-content": "rectangle_172.svg"
+          },
+          {
+            "id": "next",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 4.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 722.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 42.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 13.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Ellipse 176",
+              "Ellipse 177"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Next",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 3.5
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 687.0
+              }
+            },
+            "font-weight": 600.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "Next",
+            "overflow": "visible",
+            "text-align-vertical": "center",
+            "text-size": 30.0,
+            "line-height": 0.7333333587646484,
+            "typeface": "Poppins",
+            "case": "title"
+          },
+          {
+            "id": "Welcome to GetWel+",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 135.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 298.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 135.0
+              }
+            },
+            "font-weight": 600.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "Welcome to \nGetWel+",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align-vertical": "center",
+            "text-size": 30.0,
+            "line-height": 1.3,
+            "typeface": "Poppins",
+            "case": "title"
+          },
+          {
+            "id": "image",
+            "border-radius": 70.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 66.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 405.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 241.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 254.0
+              }
+            },
+            "vector-content": "image.svg"
+          },
+          {
+            "id": "Status",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 40.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Status_synth",
+              "Camera"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Status_synth",
+            "opacity": 100.0,
+            "padding": {
+              "left": 16.0,
+              "right": 16.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 381.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 40.0
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "space-between",
+            "children": [
+              "Time & Date",
+              "Status Icons"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Camera",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.5
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 8.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Camera1"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Time & Date",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 128.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "9:30",
+              "Tue, Jul 19"
+            ],
+            "item-spacing": 8.0,
+            "clip-content": false
+          },
+          {
+            "id": "Status Icons",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "end",
+            "children": [
+              "Wi-Fi Network",
+              "Battery"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "9:30",
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "9:30",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "letter-spacing": 0.25,
+            "line-height": 1.4285714721679688
+          },
+          {
+            "id": "Tue, Jul 19",
+            "presence": false,
+            "text-content": "Tue, Jul 19",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "letter-spacing": 0.25,
+            "line-height": 1.4285714721679688
+          },
+          {
+            "id": "Wi-Fi Network",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Wifi",
+              "Signal"
+            ],
+            "item-spacing": -2.0,
+            "clip-content": false
+          },
+          {
+            "id": "Battery",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 52.0
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Battery1",
+              "Until 10:00 AM"
+            ],
+            "item-spacing": 2.0,
+            "clip-content": false
+          },
+          {
+            "id": "Wifi",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 16.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 16.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Vector"
+            ]
+          },
+          {
+            "id": "Signal",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 16.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 16.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Vector1"
+            ]
+          },
+          {
+            "id": "Vector",
+            "margin": {
+              "left": 0.666015625,
+              "top": 2.96002197265625,
+              "right": 0.6673173904418945,
+              "bottom": 2.666645050048828
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector.svg"
+          },
+          {
+            "id": "Vector1",
+            "margin": {
+              "left": 1.333984375,
+              "top": 1.33331298828125,
+              "right": 1.332681655883789,
+              "bottom": 1.333353042602539
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector1.svg"
+          },
+          {
+            "id": "Battery1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 16.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 16.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Base"
+            ]
+          },
+          {
+            "id": "Until 10:00 AM",
+            "presence": false,
+            "text-content": "Until 10:00 AM",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "letter-spacing": 0.25,
+            "line-height": 1.4285714721679688
+          },
+          {
+            "id": "Base",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.000019550323486328125
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 8.5
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.166665077209473
+              }
+            },
+            "vector-content": "base.svg"
+          },
+          {
+            "id": "Camera1",
+            "border-radius": 100.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              }
+            },
+            "vector-content": "camera.svg"
+          },
+          {
+            "id": "Ellipse 176",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 13.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 13.0
+              }
+            },
+            "vector-content": "ellipse_176.svg"
+          },
+          {
+            "id": "Ellipse 177",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 29.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 13.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 13.0
+              }
+            },
+            "vector-content": "ellipse_177.svg"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Group 2610035",
+      "size": {
+        "width": 374.0,
+        "height": 810.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

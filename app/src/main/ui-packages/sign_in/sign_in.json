@@ -1,0 +1,683 @@
+{
+  "name": "sign_in",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "LahFpmOjmmeAIJgxenmWx8",
+    "node": "1108:122",
+    "version": "6539527176",
+    "component-id": "e4b00c67dc8416c6677a0761f284bdb9f6527ab6"
+  },
+  "default": "Sign in",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "Lets Sign you in"
+      },
+      {
+        "type": "text",
+        "id": "Welcome Back , You have been missed"
+      },
+      {
+        "type": "vector",
+        "id": "email_field"
+      },
+      {
+        "type": "vector",
+        "id": "passowrd_field"
+      },
+      {
+        "type": "vector",
+        "id": "Signin_button"
+      },
+      {
+        "type": "text",
+        "id": "Email ,phone & username"
+      },
+      {
+        "type": "text",
+        "id": "Don’t have an account ? Register Now"
+      },
+      {
+        "type": "text",
+        "id": "Password"
+      },
+      {
+        "type": "text",
+        "id": "Forgot Password ?"
+      },
+      {
+        "type": "text",
+        "id": "SignIn"
+      },
+      {
+        "type": "text",
+        "id": "or"
+      },
+      {
+        "type": "vector",
+        "id": "Vector49"
+      },
+      {
+        "type": "vector",
+        "id": "Vector48"
+      },
+      {
+        "type": "group",
+        "id": "Google logo"
+      },
+      {
+        "type": "vector",
+        "id": "facebook_icon"
+      },
+      {
+        "type": "vector",
+        "id": "Vector50"
+      },
+      {
+        "type": "vector",
+        "id": "Vector54"
+      },
+      {
+        "type": "vector",
+        "id": "Vector53"
+      },
+      {
+        "type": "vector",
+        "id": "Vector52"
+      },
+      {
+        "type": "vector",
+        "id": "Vector51"
+      }
+    ],
+    "modes": {
+      "Sign in": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "Lets Sign you in",
+              "Welcome Back , You have been missed",
+              "email_field",
+              "passowrd_field",
+              "Signin_button",
+              "Email ,phone & username",
+              "Don’t have an account ? Register Now",
+              "Password",
+              "Forgot Password ?",
+              "SignIn",
+              "or",
+              "Vector49",
+              "Vector48",
+              "Google logo",
+              "facebook_icon",
+              "Vector50"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            }
+          },
+          {
+            "id": "Lets Sign you in",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 18.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 65.0
+              }
+            },
+            "font-weight": 700.0,
+            "text-content": "Lets Sign you in",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 37.0,
+            "line-height": 1.2599999711320207,
+            "typeface": "Outfit"
+          },
+          {
+            "id": "Welcome Back , You have been missed",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 18.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 121.0
+              }
+            },
+            "text-content": "Welcome Back ,\nYou have been missed",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 28.0,
+            "line-height": 1.2599999564034599,
+            "typeface": "Outfit"
+          },
+          {
+            "id": "email_field",
+            "border-radius": 5.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 23.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 246.0
+              }
+            },
+            "tap-handler": "$on email_field tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 342.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 49.0
+              }
+            },
+            "vector-content": "email_field.svg"
+          },
+          {
+            "id": "passowrd_field",
+            "border-radius": 5.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 23.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 305.0
+              }
+            },
+            "tap-handler": "$on passowrd_field tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 342.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 49.0
+              }
+            },
+            "vector-content": "passowrd_field.svg"
+          },
+          {
+            "id": "Signin_button",
+            "border-radius": 5.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 23.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 408.0
+              }
+            },
+            "tap-handler": "$on Signin_button tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 342.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 49.0
+              }
+            },
+            "vector-content": "signin_button.svg"
+          },
+          {
+            "id": "Email ,phone & username",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 37.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 261.0
+              }
+            },
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0235294117647058,
+              "value": 0.3333333333333333
+            },
+            "text-content": "$Email ,phone & username text content",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 16.0,
+            "line-height": 1.2599999904632568,
+            "typeface": "Outfit"
+          },
+          {
+            "id": "Don’t have an account ? Register Now",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 58.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 599.0
+              }
+            },
+            "tap-handler": "$on Don’t have an account ? Register Now tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 272.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 34.0
+              }
+            },
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0235294117647058,
+              "value": 0.3333333333333333
+            },
+            "annotated-text-content": {
+              "text": "Don’t have an account ? Register Now  ",
+              "annotated-text-span-list": [
+                {
+                  "span-start": 0,
+                  "span-length": 24
+                },
+                {
+                  "span-start": 24,
+                  "span-length": 12,
+                  "annotated-text-style": {
+                    "font-weight": 700.0,
+                    "typeface": "Outfit",
+                    "color": {
+                      "alpha": 1.0,
+                      "hue": 0.0,
+                      "saturation": 0.0,
+                      "value": 0.0
+                    }
+                  }
+                },
+                {
+                  "span-start": 36,
+                  "span-length": 2,
+                  "annotated-text-style": {
+                    "color": {
+                      "alpha": 1.0,
+                      "hue": 0.0,
+                      "saturation": 0.0,
+                      "value": 0.0
+                    }
+                  }
+                }
+              ]
+            },
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 16.0,
+            "line-height": 1.2599999904632568,
+            "typeface": "Outfit"
+          },
+          {
+            "id": "Password",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 37.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 320.0
+              }
+            },
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0235294117647058,
+              "value": 0.3333333333333333
+            },
+            "text-content": "$Password text content",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 16.0,
+            "line-height": 1.2599999904632568,
+            "typeface": "Outfit"
+          },
+          {
+            "id": "Forgot Password ?",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 224.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 364.0
+              }
+            },
+            "text-content": "Forgot Password ?",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 15.0,
+            "line-height": 1.259999974568685,
+            "typeface": "Outfit"
+          },
+          {
+            "id": "SignIn",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 168.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 421.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "Sign in",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 18.0,
+            "line-height": 1.26000001695421,
+            "typeface": "Outfit"
+          },
+          {
+            "id": "or",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 186.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 476.0
+              }
+            },
+            "font-weight": 500.0,
+            "text-content": "or ",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 18.0,
+            "line-height": 1.26000001695421,
+            "typeface": "Outfit"
+          },
+          {
+            "id": "Vector49",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 32.5
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 490.25
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 147.5
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 0.0
+              }
+            },
+            "vector-content": "vector49.svg"
+          },
+          {
+            "id": "Vector48",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 209.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 490.75
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 147.5
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 0.0
+              }
+            },
+            "vector-content": "vector48.svg"
+          },
+          {
+            "id": "Google logo",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 130.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 527.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 23.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 23.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Vector54",
+              "Vector53",
+              "Vector52",
+              "Vector51"
+            ]
+          },
+          {
+            "id": "facebook_icon",
+            "margin": {
+              "left": 186.0,
+              "top": 525.0,
+              "right": 185.99997901916504,
+              "bottom": 293.00597953796387
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "facebook_icon.svg"
+          },
+          {
+            "id": "Vector50",
+            "margin": {
+              "left": 237.0,
+              "top": 524.0,
+              "right": 129.9971752166748,
+              "bottom": 291.7472972869873
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector50.svg"
+          },
+          {
+            "id": "Vector54",
+            "margin": {
+              "left": 11.729076385498047,
+              "top": 9.372146606445312,
+              "right": 0.012146949768066406,
+              "bottom": 2.8549909591674805
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector54.svg"
+          },
+          {
+            "id": "Vector53",
+            "margin": {
+              "left": 1.2521286010742188,
+              "top": 13.727134704589844,
+              "right": 3.5044631958007812,
+              "bottom": 0.07900619506835938
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector53.svg"
+          },
+          {
+            "id": "Vector52",
+            "margin": {
+              "left": 0.00118255615234375,
+              "top": 6.260215759277344,
+              "right": 17.942842960357666,
+              "bottom": 6.395050048828125
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector52.svg"
+          },
+          {
+            "id": "Vector51",
+            "margin": {
+              "left": 1.2521286010742188,
+              "right": 3.426300048828125,
+              "bottom": 13.806148529052734
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector51.svg"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "on email_field tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "on passowrd_field tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "on Signin_button tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "Email ,phone & username text content": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "on Don’t have an account ? Register Now tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "Password text content": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Sign in",
+      "size": {
+        "width": 390.0,
+        "height": 844.0
+      },
+      "parameters": {
+        "Email ,phone & username text content": "Email ,phone & username",
+        "Password text content": "Password"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
